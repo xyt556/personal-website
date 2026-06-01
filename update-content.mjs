@@ -73,7 +73,19 @@ try {
         } else {
           result += '[\n';
           for (const item of value) {
-            result += spaces + '  ' + formatAsTs(item, indent + 4) + ',\n';
+            result += spaces + '  ';
+            if (typeof item === 'string') {
+              result += `'${item.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n/g, '\\n')}'`;
+            } else if (typeof item === 'number') {
+              result += item;
+            } else if (typeof item === 'boolean') {
+              result += item;
+            } else if (item === null) {
+              result += 'null';
+            } else {
+              result += formatAsTs(item, indent + 4);
+            }
+            result += ',\n';
           }
           result += spaces + ']';
         }
