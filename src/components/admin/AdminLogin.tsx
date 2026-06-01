@@ -107,7 +107,7 @@ export default function AdminLogin({ onLogin }: Props) {
           {/* Hint */}
           <div className="mt-6 p-3 rounded-lg bg-amber-500/10 border border-amber-500/20">
             <p className="text-xs text-amber-400 text-center">
-              💡 默认密码: <code className="px-1.5 py-0.5 bg-amber-500/10 rounded text-amber-300 font-mono">admin123</code>
+              管理员登录
             </p>
           </div>
         </div>
