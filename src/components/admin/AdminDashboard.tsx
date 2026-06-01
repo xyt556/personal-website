@@ -10,6 +10,7 @@ import {
   Save,
   Check,
   Code2,
+  Download,
 } from 'lucide-react';
 import { logoutAdmin } from '../../store/siteData';
 import { useSiteData } from '../../store/SiteDataContext';
@@ -59,6 +60,19 @@ export default function AdminDashboard({ onLogout, onPreview }: Props) {
   const handleLogout = () => {
     logoutAdmin();
     onLogout();
+  };
+
+  const handleExport = () => {
+    const dataStr = JSON.stringify(draft, null, 2);
+    const blob = new Blob([dataStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = 'site-data.json';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
   };
 
   const updateDraft = (partial: Partial<SiteData>) => {
@@ -130,6 +144,13 @@ export default function AdminDashboard({ onLogout, onPreview }: Props) {
             <p className="text-sm text-slate-500">编辑网站内容，保存后即时生效</p>
           </div>
           <div className="flex items-center gap-3">
+            <button
+              onClick={handleExport}
+              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-600 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors"
+            >
+              <Download className="w-4 h-4" />
+              导出配置
+            </button>
             <button
               onClick={() => setShowResetConfirm(true)}
               className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-slate-600 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors"
