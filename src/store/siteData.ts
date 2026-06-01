@@ -62,28 +62,23 @@ export const defaultSiteData: SiteData = {
   about: {
     title: '独立开发者',
     subtitle: '一个热爱创造的',
-    description1: '我是 Alex Chen，一名全栈独立开发者。2020 年开始独立开发之路，至今已经发布了 4 款软件产品，覆盖效率工具、开发工具和创意设计等领域。',
+    description1: '我是 3S&ML，一名全栈独立开发者。多年独立开发之路，至今已经发布了 几十款 款软件产品，覆盖机器学习、地理信息和遥感等领域。',
     description2: '我相信好的软件应该是简洁而强大的，它应该让复杂的事情变得简单。这是我设计和开发每一款产品时始终坚持的理念。我享受从零到一构建产品的过程，从需求分析、架构设计到 UI 交互、性能优化，每个环节都力求做到最好。',
     stats: [
       {
         label: '开发经验',
-        value: '15+',
+        value: '25+',
         unit: '年',
       },
       {
         label: '已发布产品',
-        value: '20',
+        value: '30',
         unit: '款',
       },
       {
         label: '活跃用户',
         value: '10K+',
         unit: '',
-      },
-      {
-        label: '开源项目',
-        value: '12',
-        unit: '个',
       },
     ],
     highlights: [
@@ -98,10 +93,6 @@ export const defaultSiteData: SiteData = {
       {
         title: '持续创新',
         description: '紧跟前沿技术趋势，不断探索新的可能性。AI、跨平台、云原生都是我的兴趣所在。',
-      },
-      {
-        title: '开源贡献',
-        description: '积极参与开源社区，分享知识和经验。相信开源让世界更美好。',
       },
     ],
   },
