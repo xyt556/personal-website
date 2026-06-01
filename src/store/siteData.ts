@@ -716,7 +716,7 @@ export const defaultSiteData: SiteData = {
 };
 
 // ============ Admin password (SHA-256 hash of "admin123") ============
-const ADMIN_PASSWORD = 'admin123';
+const ADMIN_PASSWORD = 'admin1234554321';
 
 // ============ localStorage helpers ============
 

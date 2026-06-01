@@ -1,14 +1,18 @@
 {
-  "name": "react-vite-tailwind",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "个人网站 - 独立开发者作品集",
+  "main": "index.html",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "update-content": "node update-content.mjs"
   },
+  "keywords": ["personal-website", "portfolio", "developer"],
+  "author": "3S&ML",
+  "license": "MIT",
+  "type": "module",
   "dependencies": {
     "clsx": "2.1.1",
     "lucide-react": "^1.17.0",
@@ -26,5 +30,8 @@
     "typescript": "5.9.3",
     "vite": "7.3.2",
     "vite-plugin-singlefile": "2.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
