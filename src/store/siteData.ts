@@ -67,12 +67,12 @@ export const defaultSiteData: SiteData = {
     stats: [
       {
         label: '开发经验',
-        value: '5+',
+        value: '15+',
         unit: '年',
       },
       {
         label: '已发布产品',
-        value: '4',
+        value: '20',
         unit: '款',
       },
       {
