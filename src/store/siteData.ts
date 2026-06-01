@@ -54,7 +54,7 @@ export const defaultSiteData: SiteData = {
     badge: '独立开发者 · 用代码创造价值',
     name: '3S&ML',
     subtitle: '热爱构建优雅实用的软件产品，专注于提升用户体验与开发效率。',
-    stats: '5 年独立开发经验 · 4 款已发布产品 · 10,000+ 活跃用户',
+    stats: '15年独立开发经验 ·20多款已发布产品 · 10,000+ 活跃用户',
     avatarUrl: '/images/avatar.jpg',
     githubUrl: '#',
     twitterUrl: '#',
