@@ -178,24 +178,17 @@
     },
     {
       "id": "codebridge",
-      "name": "CodeBridge",
+      "name": "地理探测器",
       "tagline": "跨平台的智能代码编辑器",
-      "description": "CodeBridge 是一款轻量但功能强大的代码编辑器，内置 AI 辅助编码、智能补全和实时协作功能。支持 50+ 编程语言，拥有丰富的插件生态系统。",
-      "image": "/images/project-codebridge.jpg",
+      "description": "mspa",
+      "image": "/images/mspa.png",
       "tags": [
         "开发工具",
         "Electron",
         "TypeScript",
         "Rust"
       ],
-      "features": [
-        "AI 智能代码补全",
-        "内置终端与调试器",
-        "实时多人协作编辑",
-        "Git 深度集成",
-        "50+ 语言语法支持",
-        "可扩展插件系统"
-      ],
+      "features": [],
       "downloadUrl": "#",
       "sourceUrl": "#",
       "platform": [
