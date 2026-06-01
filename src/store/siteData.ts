@@ -198,10 +198,10 @@ export const defaultSiteData: SiteData = {
   projects: [
     {
       id: 'taskflow',
-      name: 'TaskFlow',
-      tagline: '高效的任务管理与团队协作工具',
-      description: 'TaskFlow 是一款直观的项目管理应用，支持看板视图、甘特图和时间线，帮助个人和团队轻松管理复杂项目。内置智能提醒、自动化工作流和数据分析功能。',
-      image: '/images/project-taskflow.jpg',
+      name: '机器学习及SHAP解释工具',
+      tagline: '一款集成化的机器学习模型训练、评估与 SHAP 可解释性分析工具。采用图形界面，无需编程即可完成从数据导入到模型解释的流程。',
+      description: '核心功能：\n• 数据管理：支持 CSV、Excel 导入，自动识别数据类型与缺失值\n• 模型训练：集成 20+ 种算法（随机森林、XGBoost、LightGBM、CatBoost、SVM、神经网络等）\n• 特征工程：支持 8 种特征选择方法，自动处理分类变量编码与数据标准化\n• 模型评估：提供分类/回归评估指标，支持交叉验证、超参数优化与不平衡数据处理\n• 模型对比：多模型性能对比，包括 ROC/PR 曲线对比、混淆矩阵对比、误差分布对比与性能雷达图\n• SHAP 可视化：提供 10+ 种 SHAP 图表（摘要图、依赖图、交互图、瀑布图、力图等），支持样本级解释\n• 外部验证：独立数据集验证模型泛化能力，支持训练集与验证集结果对比\n• 预测功能：使用训练好的模型进行批量预测\n• 结果导出：支持图表多格式导出（PNG、JPG、SVG、PDF、EPS、TIF 等），矢量格式满足论文要求\n适用于数据科学、金融风控、医疗诊断、工业质量控制等领域，可显著提升机器学习模型的可解释性与科研效率。',
+      image: '/images/ml-shap.jpg',
       tags: [
         {
           '0': '效',
@@ -326,8 +326,8 @@ export const defaultSiteData: SiteData = {
           '2': 'b',
         },
       ],
-      version: 'v2.4.1',
-      updatedAt: '2025-12-15',
+      version: 'v5.7.6',
+      updatedAt: '2026-06-01',
     },
     {
       id: 'codebridge',
