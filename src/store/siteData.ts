@@ -216,7 +216,7 @@ export const defaultSiteData: SiteData = {
         'macOS',
         'Linux',
       ],
-      version: 'v1.8.0',
+      version: 'v5.0.0',
       updatedAt: '2026-01-20',
     },
     {
