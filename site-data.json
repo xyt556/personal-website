@@ -67,72 +67,6 @@
           "level": 90
         }
       ]
-    },
-    {
-      "title": "后端开发",
-      "emoji": "⚙️",
-      "skills": [
-        {
-          "name": "Node.js",
-          "level": 90
-        },
-        {
-          "name": "Python",
-          "level": 88
-        },
-        {
-          "name": "Rust",
-          "level": 75
-        },
-        {
-          "name": "Go",
-          "level": 70
-        }
-      ]
-    },
-    {
-      "title": "数据库 & 云服务",
-      "emoji": "☁️",
-      "skills": [
-        {
-          "name": "PostgreSQL",
-          "level": 88
-        },
-        {
-          "name": "Redis",
-          "level": 82
-        },
-        {
-          "name": "Docker / K8s",
-          "level": 80
-        },
-        {
-          "name": "AWS / GCP",
-          "level": 78
-        }
-      ]
-    },
-    {
-      "title": "其他技能",
-      "emoji": "🛠️",
-      "skills": [
-        {
-          "name": "Electron",
-          "level": 88
-        },
-        {
-          "name": "UI/UX 设计",
-          "level": 82
-        },
-        {
-          "name": "CI/CD",
-          "level": 80
-        },
-        {
-          "name": "AI / ML",
-          "level": 72
-        }
-      ]
     }
   ],
   "projects": [
@@ -192,8 +126,8 @@
     }
   ],
   "contact": {
-    "email": "alex@example.dev",
-    "location": "中国 · 深圳",
+    "email": "xyt556@163.com",
+    "location": "中国 · 江苏",
     "workingHours": "周一至周五 9:00-18:00"
   }
 }
