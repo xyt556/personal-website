@@ -164,7 +164,7 @@ export const defaultSiteData: SiteData = {
         '自动化工作流引擎',
         '多维度数据报表',
       ],
-      downloadUrl: '#',
+      downloadUrl: '/soft/ml-shap.html',
       demoUrl: '#',
       sourceUrl: '#',
       platform: [
