@@ -5,7 +5,7 @@
     "subtitle": "热爱构建优雅实用的软件产品，专注于提升用户体验与开发效率。",
     "stats": "15年独立开发经验 ·20多款已发布产品 · 10,000+ 活跃用户",
     "avatarUrl": "/images/avatar.jpg",
-    "githubUrl": "#",
+    "githubUrl": "https://github.com/xyt556?tab=repositories",
     "twitterUrl": "#"
   },
   "about": {
@@ -193,7 +193,7 @@
   ],
   "contact": {
     "email": "alex@example.dev",
-    "location": "中国 · 江苏",
+    "location": "中国 · 深圳",
     "workingHours": "周一至周五 9:00-18:00"
   }
 }
